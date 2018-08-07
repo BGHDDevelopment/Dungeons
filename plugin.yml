@@ -1,0 +1,9 @@
+name: Dungeons
+main: me.ItsJasonn.Dungeons.Main.Core
+version: 0.1
+author: BGHDDevelopment
+commands:
+ Dungeons:
+  description: Show a Dungeons help page
+ Hub:
+  description: Teleport to the main hub
