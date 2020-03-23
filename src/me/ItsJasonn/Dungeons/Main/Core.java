@@ -24,10 +24,11 @@ public class Core extends JavaPlugin implements PluginMessageListener {
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "- If an error occurs you are supposed to contact the developer and DO NOT try out things yourself.");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "- Report bugs to the developer if there are any.");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "-----------======================-----------");
-		
+		MetricsLite metrics = new MetricsLite(this);
+
 		getCommand("Dungeons").setExecutor(new me.ItsJasonn.Dungeons.Commands.Dungeons());
 		getCommand("Hub").setExecutor(new Hub());
-		
+
 		new Plugin(this);
 		Bukkit.getServer().getPluginManager().registerEvents(new EntityStats(this), this);
 		Bukkit.getServer().getPluginManager().registerEvents(new PlayerJoin(this), this);
