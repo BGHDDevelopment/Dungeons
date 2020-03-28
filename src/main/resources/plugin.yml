@@ -1,0 +1,9 @@
+name: Dungeons
+version: ${project.version}
+main: me.itsjasonn.dungeons.main.Core
+authors: [BGHDDevelopment]
+commands:
+  Dungeons:
+    description: Show a Dungeons help page
+  Hub:
+    description: Teleport to the main hub
