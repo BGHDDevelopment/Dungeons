@@ -214,4 +214,7 @@ CODE_OF_CONDUCT.md
 README.md
 LICENSE
 
+### NMS ###
+dependencies/
+
 # End of https://www.gitignore.io/api/java,maven,eclipse,intellij+iml,git
